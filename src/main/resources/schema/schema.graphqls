@@ -1,0 +1,8 @@
+type Query {
+    parents: [Parent]
+}
+
+type Parent {
+    name: String
+    age: Int
+}
